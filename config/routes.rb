@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'static/home'
+  get 'home/index'
+
   
-  root to: "static#home"
+  root to: "home#index"
 end
