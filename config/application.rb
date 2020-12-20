@@ -18,5 +18,6 @@ module Tailwind2Skeleton
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    ENV.update YAML.load_file('config/application.yml')[Rails.env]
   end
 end
