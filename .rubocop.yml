@@ -91,7 +91,7 @@ Layout/SpaceInsideArrayLiteralBrackets:
   Exclude:
     - 'config/environments/production.rb'
 
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: false
 
 Style/FormatString:
