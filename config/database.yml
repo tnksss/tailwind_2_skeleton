@@ -6,12 +6,18 @@ default: &default
   password: <%= ENV['db.password'] %>
   host:  <%= ENV['db.host'] %>
 
+mailer: &mailer
+  mailer.host: localhost
+  mailer.port: '3000'
+
 development:
   <<: *default
+  <<: *mailer
   database: tailwind_skeleton_development
 
 test:
   <<: *default
+  <<: *mailer
   browser.headless: 'true'
   database: tailwind_skeleton_test
 

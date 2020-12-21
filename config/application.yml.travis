@@ -1,2 +1,6 @@
 test:
   browser.headless: 'true'
+
+mailer: &mailer
+  mailer.host: localhost
+  mailer.port: '3000'

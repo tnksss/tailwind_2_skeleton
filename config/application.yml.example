@@ -3,9 +3,16 @@ database: &database
   db.password: postgres
   db.host: localhost
 
+mailer: &mailer
+  mailer.host: localhost
+  mailer.port: '3000'
+
 development:
   <<: *database
+  <<: *mailer
 test:
   <<: *database
+  <<: *mailer
 production:
   <<: *database
+  <<: *mailer
