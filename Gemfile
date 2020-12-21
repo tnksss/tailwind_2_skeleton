@@ -18,6 +18,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0.1'
   gem 'capybara', '~> 3.34'
   gem 'factory_bot_rails'
+  gem 'bullet'
 end
 
 group :development do
