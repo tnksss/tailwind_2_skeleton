@@ -19,6 +19,9 @@ group :development, :test do
   gem 'capybara', '~> 3.34'
   gem 'factory_bot_rails'
   gem 'bullet'
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'bullet'
 end
 
 group :development do
