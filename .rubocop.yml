@@ -1,4 +1,6 @@
-require: rubocop-rails
+require:
+  - rubocop-rails
+  - rubocop-rspec
 
 Rails:
   Enabled: true
@@ -54,9 +56,6 @@ Layout/LineLength:
     - 'config/initializers/backtrace_silencers.rb'
     - 'config/initializers/content_security_policy.rb'
     - 'db/seeds.rb'
-
-Bundler/OrderedGems:
-  Enabled: false
 
 Metrics/MethodLength:
   Exclude:

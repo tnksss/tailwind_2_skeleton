@@ -21,7 +21,7 @@ group :development, :test do
   gem 'bullet'
   gem 'rubocop', require: false
   gem 'rubocop-rspec', require: false
-  gem 'bullet'
+  gem 'rubocop-rails', require: false
 end
 
 group :development do
