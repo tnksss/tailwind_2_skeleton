@@ -1,6 +1,6 @@
 env:
   global:
-    - CC_TEST_REPORTER_ID=75e0f8cd1c57b67fbb63f1d01ee3acdc406d4afa13eb88091cf0f759acb40c8b
+    - CC_TEST_REPORTER_ID=d48dedc0f957e34e510a982ab680cf0c73f4986d67e1917db48e9c9c0cb4a092
 addons:
   postgresql: 9.6
   firefox: '65.0'
