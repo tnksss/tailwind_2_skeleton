@@ -28,6 +28,7 @@ install:
   - nvm install node
   - node -v
 script:
+  - rm -rf public/packs*
   - RAILS_ENV=test bundle exec rails webpacker:compile
   - bundle exec rails db:migrate RAILS_ENV=test
   - bundle exec rubocop
